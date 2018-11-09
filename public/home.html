@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    crossorigin="anonymous">
+</head>
+<!-- <link rel="stylesheet" href="style.css"> -->
+<title>Note Taker</title>
+<style>
+  .horizontal {
+    z-index: 5000;
+  }
+  .vertical {
+    width: 30%;
+   
+    min-height: 100%;
+    float: left;
+    /* padding-top: 40px; */
+    position: fixed;
+  }
+  .main {
+    width: 70%;
+   
+    min-height: 100%;
+    position: fixed;
+    right: 0px;
+    z-index: 100;
+  }
+  .icons-right{position: fixed;
+    right: 10px;
+  }
+  .note-title, .note-textarea{
+    border: none;
+    outline: none;
+    width: 100%;
+    margin: 10px 20px
+  }
+  .note-title{
+    font-size: 30px
+  }
+  
+</style>
+</head>
+
+<body>
+  <nav class="horizontal bg-info py-2 ">hiiiiiiiiiiii
+    <span class="icons icons-right">
+      <i class="fas fa-save text-light save-note mx-1 save"></i>
+      <i class="fas fa-pen text-light new-note mx-1 newnote"></i>
+    </span>
+  </nav>
+  <div class="vertical border"></div>
+  <div class="main">
+    <input class="note-title" placeholder="Note Title" maxlength="28" type="text">
+    <textarea class="note-textarea" placeholder="Note Text"></textarea>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <script src="/assets/js/home.js"></script>
+  <script>
+  
+  </script>
+</body>

@@ -1,0 +1,16 @@
+.main{
+  height: 100%;
+  width: 75%;
+  background-color: rgb(127, 255, 133);
+  position: fixed;
+  right: 0px;
+  padding: 10px
+}
+.sidebar{
+  height: 100%;
+  width: 25%;
+  background-color: rgb(205, 120, 50);
+  position: fixed;
+  left: 0px;
+  padding: 10px
+}
