@@ -1,16 +1,25 @@
 {
-  "name": "HW nodetaker",
+  "name": "notetaker",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mitali2190/notetaker.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mitali2190/notetaker/issues"
+  },
+  "homepage": "https://github.com/mitali2190/notetaker#readme",
   "dependencies": {
     "express": "^4.16.4",
-    "mysql": "^2.16.0",
-    "nodemon": "^1.18.5"
+    "mysql": "^2.16.0"
   }
 }
