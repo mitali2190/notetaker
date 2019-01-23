@@ -6,10 +6,10 @@ if (process.env.JAWSDB_URL) {
   connection = mysql.createConnection(process.env.JAWSDB_URL);
 } else {
   connection = mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    password: "root",
-    database: "notetaker_db"
+    host: "ffn96u87j5ogvehy.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    user: "	ohw0od4jauxiqivq",
+    password: "zh7rj4zbyqj8fkvu",
+    database: "fg8a345cajlmlbcp"
   });
 }
 
