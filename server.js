@@ -1,6 +1,6 @@
 var express = require("express");
-var apiRoutes = require("./routes/apiRoutes");
-var htmlRoutes = require("./routes/htmlRoutes");
+var apiRoutes = require("./routes/apiroutes");
+var htmlRoutes = require("./routes/htmlroutes");
 
 // Tells node that we are creating an "express" server
 var app = express();
